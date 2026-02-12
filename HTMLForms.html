@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Exercise 3</title>
+</head>
+<body>
+
+    <h1><font color="orange">How can we help?</font></h1>
+
+    <fieldset>
+        <legend><font color="blue">Request for Proposal</font></legend>
+        
+        <form>
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td>Your name:</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" size="25"></td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Your Business:</td>
+                    <td>
+                        <textarea rows="10" cols="30">Briefly describe your business in this space</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top">Company size:</td>
+                    <td>
+                        <input type="radio" name="size" value="10"> Less than 10<br>
+                        <input type="radio" name="size" value="50"> 11 to 50<br>
+                        <input type="radio" name="size" value="200"> 50 to 200<br>
+                        <input type="radio" name="size" value="over200"> Over 200
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Service:</td>
+                    <td>
+                        <input type="checkbox" name="service"> Brand Identity
+                        <input type="checkbox" name="service"> New Website
+                        <input type="checkbox" name="service"> Web Redesigner
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Timeline:</td>
+                    <td>
+                        <select name="timeline">
+                            <option value="Immediately">Immediately</option>
+                            <option value="1-2 weeks">1-2 weeks</option>
+                            <option value="3-6 weeks">3-6 weeks</option>
+                            <option value="7-2 months">7 – 2 months</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Send to dev\design">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+</body>
+</html>
