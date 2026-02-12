@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Midterm Lab Task 4 – Image Maps</title>
+    <title>Image Map</title>
 </head>
 <body>
 
-<h2>ETSU Campus Image Map</h2>
+<h2>Midterm Lab Task 4 Image Map</h2>
 
-<img src="etsu-map.jpg"
-     width="600"
-     height="396"
-     usemap="#campusmap"
-     alt="ETSU Campus Map">
+<img src="etsu-map.jpg" usemap="#etsumap">
 
-<map name="campusmap">
+<map name="etsumap">
 
-
-    <area shape="rect"
-          coords="345,95,385,175"
+    <area target="_blank"
+          alt="Go to YouTube"
+          title="Go to YouTube"
           href="https://www.youtube.com/"
-          alt="Building 1 - YouTube"
-          target="_blank">
+          coords="590,200,628,275"
+          shape="rect">
 
-
-    <area shape="rect"
-          coords="255,135,310,185"
+    <area target="_blank"
+          alt="Go to Facebook"
+          title="Go to Facebook"
           href="https://www.facebook.com/"
-          alt="Building 2 - Facebook"
-          target="_blank">
+          coords="388,202,464,261"
+          shape="rect">
 
-
-    <area shape="rect"
-          coords="185,220,245,285"
+    <area target="_blank"
+          alt="Go to Instagram"
+          title="Go to Instagram"
           href="https://www.instagram.com/"
-          alt="Building 3 - Instagram"
-          target="_blank">
+          coords="265,342,322,413"
+          shape="rect">
 
-
-    <area shape="circle"
-          coords="510,300,45"
-          href="https://x.com/"
-          alt="Building 4 - X (Twitter)"
-          target="_blank">
+    <area target="_blank"
+          alt="Go to X (Twitter)"
+          title="Go to X (Twitter)"
+          href="https://twitter.com/"
+          coords="747,458,753,430,772,409,800,401,834,439,830,465,810,488,781,495"
+          shape="poly">
 
 </map>
 
